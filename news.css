@@ -1,0 +1,134 @@
+body{
+    background-color: gainsboro;
+}
+@font-face {
+    font-family: shabnam;
+    src: url(font/Shabnam-s.p.34dz4cz7345i_.woff2);
+}
+@font-face {
+    font-family: hello;
+    src: url(font/Shabnam_Bold-s.p.317i0pgb9_6ht\ \(1\).woff2);
+}
+@font-face {
+    font-family: yekan;
+    src: url(font/YekanBakhFaNum-Bold.woff);
+}
+@font-face {
+    font-family: yekan2;
+    src: url(font/YekanBakhFaNum-Black.woff);
+}
+.divall{
+    display: flex;
+    justify-content: center;
+}
+.pbig{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: shabnam;
+    color:   rgb(0, 0, 0);
+}
+.psmall{
+    font-size: 30px;
+    font-family: yekan2;
+    margin-top: -20px;
+}
+/* <<<<<<<<<<<<<<<<<<< */
+.nav1{
+    width: 1500px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid  #ccc;
+    border-radius: 50px;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 15px;
+    transform-origin: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.div2{
+    display: flex;
+    justify-content: flex-start;
+}
+.p1{
+    font-size: 25px;
+    font-family: hello;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+a{
+    text-decoration: none;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -70px;
+    gap: 40px;
+}
+li{
+    font-size: 26px;
+    font-family: shabnam;
+}
+.button1{
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    transition:  all  0.4s;
+}
+.button1:hover{
+    background-color: #2563eb;
+    color: white;
+    transform: scale(1.1);
+}
+.button2{
+    width: 160px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: hello;
+    background: linear-gradient(to right bottom , #7d85f4 , #6a48c2);
+    color: white;
+    transition: all 0.3s ease-out;
+}
+.button2:hover{
+    transform: scale(1.1);
+}
+.div3{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -70px;
+    margin-right: 35px;
+}
+.div10{
+    display: flex;
+    justify-content: center;
+}
+/* اسکرول بار  */
+::-webkit-scrollbar{
+    width: 1vw;}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    width: 20px;
+    height: 20px;
+    background-color: #b1b1b1;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #E5E5E5;
+}
+
